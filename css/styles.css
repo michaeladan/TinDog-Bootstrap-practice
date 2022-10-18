@@ -1,0 +1,173 @@
+
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
+.section-heading {
+    font-size: 3rem;
+}
+.bold-font {
+    font-weight: 700;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+/* Sections */
+
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.btn {
+    margin-right: 15px;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+/* Navigation bar */ 
+
+.navbar {
+    padding-right: 120px;
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "ubuntu";
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'montserrat-light';
+}
+
+.image {
+    position: relative;
+ 
+}
+.title-image {
+    position: absolute;
+     width: 60%;
+     transform: rotate(20deg);
+     right: 30%;
+}
+
+/* Icons */
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 15px;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Fetures Section */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.feature-text {
+    color: #8f8f8f;
+    font-size: 1rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Testimonials Section  */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricnig */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+.find {
+    font-size: 3.5rem;
+}
+
+.bottom-buttons {
+    padding-bottom: 5%;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 5% 0;
+}
+
+.fab-life i {
+    padding: 20px 15px;
+}
+
+.fa-twitter {
+    padding-right: 10px;
+}
+
+@media (max-width: 1068px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: none;
+    }
+}
